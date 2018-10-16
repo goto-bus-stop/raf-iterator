@@ -1,3 +1,4 @@
+/* eslint-env browser */
 var asyncIterator = '@@asyncIterator'
 if (typeof Symbol === 'function') {
   asyncIterator = Symbol.asyncIterator || Symbol.for('asyncIterator')
