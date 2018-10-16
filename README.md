@@ -2,6 +2,13 @@
 
 requestAnimationFrame as an async iterator
 
+Async iterators are very new and work on these platforms (non exhaustive):
+
+ - Firefox 60+
+ - Chrome 68+
+ - Safari 12
+ - Node 10+
+
 [Install](#install) - [Usage](#usage) - [License: Apache-2.0](#license)
 
 [![npm][npm-image]][npm-url]
