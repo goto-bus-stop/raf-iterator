@@ -1,7 +1,7 @@
 {
   "name": "raf-iterator",
   "description": "requestAnimationFrame as an async iterator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
     "url": "https://github.com/goto-bus-stop/raf-iterator/issues"
