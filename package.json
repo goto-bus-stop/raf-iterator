@@ -1,0 +1,35 @@
+{
+  "name": "raf-iterator",
+  "description": "requestAnimationFrame as an async iterator",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/raf-iterator/issues"
+  },
+  "devDependencies": {
+    "budo": "^11.5.0",
+    "nanohtml": "^1.2.6",
+    "raf": "^3.4.0",
+    "standard": "^11.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/raf-iterator",
+  "keywords": [
+    "async",
+    "iterator",
+    "loop",
+    "raf",
+    "requestanimationframe"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/raf-iterator.git"
+  },
+  "scripts": {
+    "start": "budo example.js",
+    "test": "standard && node test | tap-spec"
+  }
+}
