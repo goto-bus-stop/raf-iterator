@@ -7,7 +7,6 @@
     "url": "https://github.com/goto-bus-stop/raf-iterator/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
     "budo": "^11.6.2",
     "nanohtml": "^1.6.3",
     "raf": "^3.4.1",
@@ -32,8 +31,5 @@
   "scripts": {
     "start": "budo example.js",
     "test": "standard && node test | tap-spec"
-  },
-  "standard": {
-    "parser": "babel-eslint"
   }
 }
