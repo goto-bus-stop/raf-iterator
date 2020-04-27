@@ -12,7 +12,7 @@
     "raf": "^3.4.1",
     "standard": "^14.3.1",
     "tap-spec": "^5.0.0",
-    "tape": "^4.11.0"
+    "tape": "^5.0.0"
   },
   "homepage": "https://github.com/goto-bus-stop/raf-iterator",
   "keywords": [
